@@ -3,16 +3,18 @@ name: verification
 on:
   push:
     branches:
-      - main      
+      - main
     paths:
-      - 'src/**' 
-      - 'tests/**'
-      
+      - 'src/**'
+      - 'test/**'
+      - 'sample/**'
+
   pull_request:
     types:
       - opened
       - synchronize
-      - reopened      
+      - reopened
+
   workflow_dispatch:
 
 jobs:
@@ -30,6 +32,6 @@ jobs:
         uses: dotnet/nbgv@v0.4.0
         with:
           setAllVars: true
-          
+
       - name: 🛠️ Building library in release mode
-        run: dotnet build src          
+        run: dotnet build src
