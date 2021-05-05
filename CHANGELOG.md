@@ -20,4 +20,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [Unreleased]: https://github.com/atc-net/atc-dummy/compare/v1.0.1...HEAD
 
-[1.0.1]: https://github.com/atc-net/atc-dummy/compare/0ea30413ac34e00422941893b3c09d1f012c6581...1.0.1
+[1.0.1]: https://github.com/atc-net/atc-dummy/compare/0ea30413ac34e00422941893b3c09d1f012c6581...v1.0.1
